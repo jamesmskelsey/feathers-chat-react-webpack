@@ -1,0 +1,57 @@
+{
+  "name": "feathers-chat-2",
+  "description": "second run through of feathers chat with react this time",
+  "version": "0.0.0",
+  "homepage": "",
+  "main": "src/",
+  "keywords": [
+    "feathers"
+  ],
+  "license": "MIT",
+  "repository": {},
+  "author": {},
+  "contributors": [],
+  "bugs": {},
+  "engines": {
+    "node": ">= 0.12.0"
+  },
+  "scripts": {
+    "test": "npm run jshint && npm run mocha",
+    "jshint": "jshint src/. test/. --config",
+    "start": "node src/",
+    "build": "node ./node_modules/webpack/bin/webpack.js -w",
+    "mocha": "mocha test/ --recursive"
+  },
+  "dependencies": {
+    "babel-preset-react": "^6.22.0",
+    "body-parser": "^1.16.0",
+    "compression": "^1.6.2",
+    "cors": "^2.8.1",
+    "feathers": "^2.0.3",
+    "feathers-authentication": "^0.7.12",
+    "feathers-client": "^1.9.0",
+    "feathers-configuration": "^0.3.3",
+    "feathers-errors": "^2.5.0",
+    "feathers-hooks": "^1.7.1",
+    "feathers-nedb": "^2.6.0",
+    "feathers-rest": "^1.6.0",
+    "feathers-socketio": "^1.4.2",
+    "moment": "^2.17.1",
+    "nedb": "^1.8.0",
+    "passport": "^0.3.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "serve-favicon": "^2.3.2",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0",
+    "request": "^2.79.0",
+    "socket.io": "^1.7.2",
+    "webpack": "^1.14.0"
+  }
+}
